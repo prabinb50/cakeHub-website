@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeHub Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- .....................this is a header part............................................. -->
+<header class="header">
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> CakeHub </a>
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+</header>
+
+
+
+
+
+<!-- ................this is body part............................................... -->
+<!-- ........part 1............... -->
+<section class="home" id="home">
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <span>Crafting Joyous Moments with Every Slice: Your Celebration, Our Cakes! </span>
+                <h3>upto 35% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="images/home-img-1.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Crafting Joyous Moments with Every Slice: Your Celebration, Our Cakes! </span>
+                <h3>upto 35% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="images/home-img-2.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+</section>
+
+
+<!-- ............part 2.............. -->
+<!-- ............about us............ -->
+<div class="heading">
+    <h1>About Us</h1>
+</div>
+
+<section class="about">
+    <div class="img">
+         <img decoding="async" src="images/about-us.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore farhan aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+        in voluptate. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+         farhan aliqua. Ut enim ad minim veniam, quis.</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+</section>
+
+
+
+
+<!-- .....................contact us............................... -->
+<!-- .....................get in touch.............................. -->
+<div class="heading">
+    <h1>Contact us</h1>
+</div>
+
+<section class="contact">
+    <div class="icon-container">
+
+        <div class="icon">
+            <i class="fas fa-phone"></i>
+            <h3>Our Number</h3>
+            <p>+111-222-3333</p>
+        </div>
+
+        <div class="icon">
+            <i class="fas fa-envelope"></i>
+            <h3>Our Email</h3>
+            <p>cakehub11@gmail.com</p>
+        </div>
+
+        <div class="icon">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Our Address</h3>
+            <p> Dhobidhara Marg, Kathmandu 44600</p>
+        </div>
+    </div>
+
+     <div class="row">
+         <form action="">
+             <h3>Get in Touch</h3>
+             <div class="inputBox">
+             <input type="text" placeholder="enter your name" class="box">
+             <input type="text" placeholder="enter your email" class="box">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="enter your number" class="box">
+                <input type="text" placeholder="enter your subject" class="box">
+               </div>
+               <textarea placeholder=" your message" cols="30" rows="10"></textarea>
+               <input type="submit" value="Send Message" class="btn">
+         </form>
+         <iframe class="map" src="https://www.google.com/maps/vt/data=7FGyVMib2T8PT6UGlm5k8ZnW3Fv0ZuuvaVnD1lzOVF7E6OUDmO8S54ltTqH4ggdYUaf0j3ka-E5uxhlBruip-fExWgCBamUDgTSjRUtHZUZSTMad2ZCijp8E7asgqTS2Od5s48Qj9ChlHgongKKc6CYgOHEnWMlUSokDTurr1Wujn3KQ6pDyTcfYH6E6ZcP1tARLIxbkQsD-Ja2NGof_3b6k_lOC3g6bfGteLwDvysLIKZP0LiLD3N513vDpYHEL_CVmmYBf4v-Trqzd2LmZsrvACg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     </div>
+</section>
+<div class="space"></div>
